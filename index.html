@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Griglia Campo Minato</title>
 </head>
-<body>
-    
 
+<body>
+    <h1>Campo Minato</h1>
+
+    <div class="difficultyRow">
+        <label for="difficoltà">Scegli la difficoltà:</label>
+        <select name="difficoltà" id="difficoltà">
+            <option value="Facile">Facile</option>
+            <option value="Media">Media</option>
+            <option value="Difficile">Difficile</option>
+        </select>
+
+        <button>Gioca</button>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="box"></div>
+
+    </div>
 
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
