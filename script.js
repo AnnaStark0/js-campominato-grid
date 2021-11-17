@@ -4,3 +4,16 @@
 // con difficoltà 2 => tra 1 e 81
 // con difficoltà 3 => tra 1 e 49
 // Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro.
+
+
+const container = document.querySelector('.container');
+
+let items ='';
+
+for (let i = 0; i < 100; i++){
+    items += `<div class="easy"></div>`;
+}
+
+console.log(items);
+
+container.innerHTML = items;
