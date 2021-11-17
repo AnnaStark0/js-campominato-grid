@@ -49,8 +49,12 @@ h1 {
     border: 1px solid white; 
 }
 
-.difficult {
+.hard {
     width: calc(100% / 5);
     height: calc(100% / 5);
     border: 1px solid white;
+}
+
+.active {
+    background-color: dodgerblue;
 }

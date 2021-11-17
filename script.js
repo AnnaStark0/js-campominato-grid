@@ -12,8 +12,31 @@ let items ='';
 
 for (let i = 0; i < 100; i++){
     items += `<div class="easy"></div>`;
+    
 }
 
 console.log(items);
 
 container.innerHTML = items;
+
+
+
+//PROVA
+// const gioca = document.getElementById('gioca');
+
+// gioca.addEventListener("click", function ()) {
+//     let livello = document.getElementById('livello').value;
+
+//     let items = '';
+
+
+//     if (livello == 'easy') {
+//         for (let i = 1; i <= 100; i++) {
+//             items += `<div class="easy"></div>`;
+//         }
+//         container.innerHTML = items;
+
+//         // const easy = document.querySelectorAll('.easy');
+//         }
+//     }
+// }
